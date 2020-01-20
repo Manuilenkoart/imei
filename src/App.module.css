@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  /* margin-top: 30vh; */
+  flex-direction: column;
+  align-items: center;
+}
+.responceText {
+  display: flex;
+  justify-content: center;
+}
+.search_form {
+  display: flex;
+  margin-top: 35vh;
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 50px; */
+}
+.search_form_input {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.16), 0 0 0 2px rgba(0, 0, 0, 0.08);
+
+  border: #f0fff0;
+  display: block;
+  width: 100%;
+  padding: 16px;
+  font: inherit;
+  font-size: 16px;
+  border-radius: 2px;
+  outline: none;
+}
+.btn {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  display: block;
+  padding: 16px;
+  font: inherit;
+  font-size: 16px;
+  border-radius: 2px;
+  margin-left: 15px;
+  border: none;
+}
+.bold {
+  font-weight: bold;
+  font-size: 18px;
+}
+.spinerContainer {
+  position: absolute;
+  top: 10vh;
+}
